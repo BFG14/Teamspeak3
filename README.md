@@ -21,7 +21,7 @@ https://github.com/samuli-salonen/Teamspeak3/blob/master/saltrun.sh
 
 You only need to do 2 commands below! <---------------------------------------------------
 
-    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/run.sh
+    sudo wget https://raw.githubusercontent.com/BFG14/Teamspeak3/master/run.sh
     
     sudo bash run.sh
  
