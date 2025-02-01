@@ -13,13 +13,15 @@ sudo add-apt-repository multiverse
 sleep 10s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
 sudo apt-get update #updates
 sleep 20s
+sudo apt install bzip2
+sleep 20s
 sudo apt-get -y upgrade #upgrades
 sleep 20s
 sudo adduser --disabled-login teamspeak #new user for teamspeak files. Also for security.
 sleep 5s
 sudo wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2 #teamspeak 3 server files.
 sleep 15s
-tar -jxvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2 #unzips teamspeak3 server
+tar -jxvf teamspeak3-server_linux_amd*.tar.bz2 #unzips teamspeak3 server
 sleep 20s
 sudo mv teamspeak3-server_linux_amd64 /usr/local/teamspeak #moves files to the teamspeak user on server
 sleep 7s
