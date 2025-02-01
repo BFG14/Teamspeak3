@@ -19,7 +19,7 @@ sudo adduser --disabled-login teamspeak #new user for teamspeak files. Also for 
 sleep 5s
 sudo wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2 #teamspeak 3 server files.
 sleep 15s
-tar -jxvf teamspeak3-server_linux_amd*.tar.bz2 #unzips teamspeak3 server
+tar -jxvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2 #unzips teamspeak3 server
 sleep 20s
 sudo mv teamspeak3-server_linux_amd64 /usr/local/teamspeak #moves files to the teamspeak user on server
 sleep 7s
